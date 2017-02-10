@@ -17,7 +17,7 @@ iBoot32Patcher - A Universal 32-bit iBoot patcher for iPhone OS 2.0 --> iOS 10
 
 Compiling
 ---------------------------------------------------
-	clang iBoot32Patcher.c finders.c functions.c patchers.c -Wno-multichar -I. -o iBoot32Patcher
+	make
 
 Sample Usage
 ---------------------------------------------------
