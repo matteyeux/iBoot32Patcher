@@ -16,5 +16,7 @@ $(TARGET) : $(OBJECTS)
 %.o : %.c 
 	$(CC) -c $(CFLAGS) $< -o $@
 
+install : $(TARGET)
+	install -v $< /usr/local/bin/
 clean : 
 	rm $(OBJECTS) $(TARGET)
